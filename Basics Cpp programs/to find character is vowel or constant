@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+void vowels(char character)
+{
+    if(character=='a'||character=='e'||character=='i'||character=='o'||character=='u')
+    {
+        cout<<"this is a vowel"<<endl;
+    }
+    else
+    {
+        cout<<"this is a constant"<<endl;
+    }
+}
+int main()
+{
+    char cha;
+    cin>>cha;
+    vowels(cha);
+}
