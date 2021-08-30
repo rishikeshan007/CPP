@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+void multiply(float a,float b)
+{
+    cout<<a*b;
+}
+int main()
+{
+    float a,b;
+    cin>>a>>b;
+    multiply(a,b);
+}    
+ 
