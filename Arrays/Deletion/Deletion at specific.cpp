@@ -14,6 +14,8 @@ int main()
     int pos;
     cout<<"enter the position to delete"<<endl;
     cin>>pos;
+    int item;
+    item=pos-1;
     if((pos<=0)||(pos>n))
     {
         cout<<"Invalid"<<endl;
@@ -33,4 +35,5 @@ int main()
     {
         cout<<arr[i]<<" ";
     }
+    cout<<"the value deleted is"<<item<<endl;
 }
